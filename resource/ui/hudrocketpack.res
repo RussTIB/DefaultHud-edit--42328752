@@ -9,7 +9,7 @@
 		"xpos"		 								"cs-1.07"
 		"xpos_minmode" "cs-1.07"
 		"wide"			"59"
-		"wide_minmode"  "40"
+		"wide_minmode"  "39"
 		"tall"			"2"		
 		"tall_minmode"  "4"	
 	}
