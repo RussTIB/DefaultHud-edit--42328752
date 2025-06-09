@@ -1,0 +1,15 @@
+r_decal_cullsize 1
+
+exec joystick.cfg
+exec autoexec.cfg
+
+stuffcmds
+startupmenu
+sv_unlockedchapters 99
+con_filter_enable 0
+
+exec russ_customization.cfg
+alias _help "exec help_commands.cfg"
+alias rlfonts "exec russ_customization_fonts.cfg"
+alias rlgeneral "exec russ_customization_general.cfg"
+alias tt "hud_reloadscheme"
