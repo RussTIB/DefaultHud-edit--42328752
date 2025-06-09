@@ -91,7 +91,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabelC"
 		"xpos"										"0"
-		"ypos"										"-9"
+		"ypos"										"-8"
 		"zpos"										"1"
 		"wide"										"640"
 		"tall"										"16"
@@ -122,6 +122,40 @@
 		"textAlignment"								"center"
 		"font"										"Game 12"
 		"fgcolor"					"black"
-"pin_to_sibling" "TargetNameLabelC"
+        "pin_to_sibling" "TargetNameLabelC"
+	}
+	"TargetDataLabelC"
+	{
+		"ControlName"		       					"CExLabel"
+		"fieldName"		        					"TargetDataLabelC"
+		"xpos"			           					"-335"
+		"ypos"			           					"23"
+		"zpos"			           					"1"
+		"wide"			           					"640"
+		"tall"			           					"40"
+		"visible"		          					"1"
+		"enabled"		           					"1"				// 0 to enable color change
+		"font"			           					"Game 9"
+		"labelText"		        					"%targetdata%"
+		"textAlignment"		     					"west"
+		"fgcolor"					"211 211 211 255"
+		"pin_to_sibling" "TargetNameLabelC"
+	}
+	"TargetDataLabelCs"
+	{
+		"ControlName"		       					"CExLabel"
+		"fieldName"		        					"TargetDataLabelCs"
+		"xpos"			           					"0"
+		"ypos"			           					"0"
+		"zpos"			           					"1"
+		"wide"			           					"641"
+		"tall"			           					"41"
+		"visible"		          					"1"
+		"enabled"		           					"1"				// 0 to enable color change
+		"font"			           					"Game 9"
+		"labelText"		        					"%targetdata%"
+		"textAlignment"		     					"west"
+		"fgcolor"					"black"
+		"pin_to_sibling" "TargetDataLabelC"
 	}
 }
